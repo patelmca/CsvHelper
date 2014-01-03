@@ -11,6 +11,7 @@ function CsvHelper()
 {
     $this->clear();
 }
+
 function clear() 
 {
     $this->line = array();
@@ -68,5 +69,6 @@ function render($outputHeaders = true, $to_encoding = null, $from_encoding ="aut
     }
     return $this->output($output);
 }
+
 }
 ?>
